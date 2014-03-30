@@ -1,0 +1,10 @@
+para ssh:
+ssh usuario@pampero.itba.edu.ar
+ssh usuario@lab91
+tenes
+91,92,93,94,97,98,57
+
+git clone https:...
+en la carpeta del pom.xml ejecutar
+mvn package assembly:single
+java -jar target/CalcuDoku-1.0-jar-with-dependencies.jar [BFS|DFS|IDFS|HIDFS|Greedy|Astar] [QuadOp3x3|QuadOp4x4|QuadOp4x4tricky|5x5|QuadOp6x6|DualOp8x8] [width] [groups|rowsNCols|both] [limitIDFS]
